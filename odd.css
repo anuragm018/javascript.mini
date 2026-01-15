@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+      margin: 0;
+  height: 100vh;            /* full screen height */
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+}
+form{
+   text-align: center;
+    background-color: rgb(13, 52, 86);
+    width: 450PX;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 60px 20pc;
+}
+label{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(104, 104, 211);
+    
+}
+input{
+    border-radius: 30px;
+    width: 40px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(23, 162, 175);
+}
