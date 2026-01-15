@@ -1,0 +1,66 @@
+body{
+ background-color: rgb(192, 16, 16);
+  margin: 0;
+  height: 100vh;            /* full screen height */
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+}
+
+form {
+  padding: 20px 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+form{
+    text-align: center;
+    background-color: rgb(13, 52, 86);
+    width: 450PX;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 60px 20pc;
+    
+}
+h1{
+    color: rgb(2, 198, 77);
+}
+label{
+    color: rgb(186, 116, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+input{
+    border-radius: 20px;
+    width: 70px;
+    color: rgb(14, 21, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(20, 195, 195);
+}
+#operation{
+    border-radius: 30px;
+    color: wheat;
+    background-color: black;
+}
+#btn{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 20px;
+    height: 4opx;
+    cursor: pointer;
+
+}
+#result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(81, 225, 19);
+    text-shadow: 10px 10px 40px chocolate;
+}
+button:hover{
+    background-color: rgb(210, 190, 190);
+}
+
